@@ -6,7 +6,7 @@ describe ('Candidato', ()=>{
         expect(typeof Candidato.created).toBe('function');
     });
 
-    it('Contienen los valores por defecto', () => {
+    it('Los valores asignados coinciden', () => {
         expect(typeof Candidato.data).toBe('function');
         const data = Candidato.data();
         expect(data.message).toBe('Probando');
