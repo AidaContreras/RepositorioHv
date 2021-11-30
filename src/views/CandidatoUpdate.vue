@@ -1,5 +1,5 @@
 <template>
-    <div v-if="selectedCandidato" class="candidatoUpdate">
+    <div v-if="selectedCandidato">
         <RegistrarForm :candidato="selectedCandidato"
             @submitForm="saveCandidato"
             submitText="Actualizar "
@@ -12,7 +12,7 @@
 import { mapActions, mapState } from 'vuex';
 import RegistrarForm from '../components/layouts/RegistrarForm.vue'
 export default {
-    name: 'candidatoUpdate',
+    name: 'CandidatoUpdate',
     components: { RegistrarForm },
     computed: {
         ...mapState('candidatos', ['selectedCandidato'])
@@ -23,7 +23,7 @@ export default {
         }
     },
     methods:{
-        ...mapActions('candidatos', ['updateCandidatos', 'fetchTodo']),
+        ...mapActions('candidatos', ['updateCandidatos', 'fetchCandidato']),
         saveCandidato(candidato){
             this.updateCandidatos(candidato).then( () => {
                 this.$router.push({ name: 'Home' })

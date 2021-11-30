@@ -11,13 +11,13 @@
       "image": "https://i.picsum.photos/id/832/400/400.jpg?hmac=bJyplWfK6osXG2M_vw8oD345d38fKc-neiT2aH7IBsQ"
     },
     {
-      "id": "2",
-      "nombre": "Sebastian",
-      "apellido": "Vera Vera",
-      "correo": "sebve@gmail.com",
-      "celular": "31222",
-      "direccion": "calle 34 #25",
-      "profesion": "Civil",
+      "id": "3",
+      "nombre": "aida",
+      "apellido": "contreras",
+      "correo": "eli@gm.com",
+      "celular": "312222",
+      "direccion": "Calle 12 #24-09 Apt 303",
+      "profesion": "Sistemas",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg"
     }
   ]

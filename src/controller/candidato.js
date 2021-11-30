@@ -40,21 +40,21 @@ const candidatosGetBySKU = (req, res) => {
 }
 
 const candidatosPut = async (req, res) => {
-    const { cc } = req.params;
-    const { _cc, nombre, ...data } = req.body;
+    const { id } = req.params;
+    const { _id, nombre, ...data } = req.body;
 
-    const candidato = await Candidato.findByIdAndUpdate(cc, data, { new: true });
+    const candidato = await Candidato.findByIdAndUpdate(id, data, { new: true });
 
     res.json(candidato);
 }
 
 const candidatosDelete = async (req, res) => {
-    const { cc } = req.params;
+    const { id } = req.params;
 
     // Eliminación fisica de registros en db
     // const user = await User.findByIdAndDelete( id );
 
-    const candidato = await Candidato.findByIdAndUpdate(cc, { status: false });
+    const candidato = await Candidato.findByIdAndUpdate(id, { status: false });
 
     res.json(candidato);
 }

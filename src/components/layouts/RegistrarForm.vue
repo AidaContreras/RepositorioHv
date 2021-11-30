@@ -1,7 +1,7 @@
 <template>
   <div>
     <br>
-    <center><h1>Registrar Información del Candidato</h1></center>
+    <center><h1> Información del Candidato</h1></center>
     <b-form @submit.prevent="$emit('submitForm', candidato)">
         <br/>
       <b-form-group  label="Identificacion:" label-for="input-2">
