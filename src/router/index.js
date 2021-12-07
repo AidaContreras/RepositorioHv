@@ -20,9 +20,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "Formulario" */ '../views/Formulario.vue')
   },
   {
-    path: '/formulario/:id',
-    name: 'CandidatoUpdate',
-    component: () => import(/* webpackChunkName: "TodosUpdate" */ '../views/CandidatoUpdate.vue')
+    path: '/formulario/:id/update',
+    name: 'Actualizar',
+    component: () => import(/* webpackChunkName: "Actualizar" */ '../views/CandidatoUpdate.vue')
   }
 ]
 

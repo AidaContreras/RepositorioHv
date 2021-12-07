@@ -7,7 +7,7 @@ export function setCandidato(state, candidato){
 }
 
 export function updateCandidatoStatus(state, payload){
-    const candidato = state.candidatos.find(currentTodo => currentCandidatos.cc === payload.cc);
+    const candidato = state.candidatos.find(currentCandidatos => currentCandidatos.id === payload.id);
     
 }
 

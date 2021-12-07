@@ -40,7 +40,7 @@ export default {
         goToUpdateCandidato(){
             this.setCandidato(this.candidato);
             this.$router.push({
-                name: 'CandidatoUpdate',
+                name: 'Actualizar',
                 params: { id: this.candidato.id }
             });
         },

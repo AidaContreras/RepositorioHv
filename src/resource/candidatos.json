@@ -1,11 +1,11 @@
 {
   "candidatos": [
     {
-      "cc": 2,
+      "id": "1",
       "nombre": "Maria Emilia  ",
       "apellido": "Caballero",
       "correo": "maria@gmail.com",
-      "celular": 123456,
+      "celular": "123456",
       "direccion": "Av. San carlos-12",
       "profesion": "Diseñadora de Software",
       "image": "https://i.picsum.photos/id/832/400/400.jpg?hmac=bJyplWfK6osXG2M_vw8oD345d38fKc-neiT2aH7IBsQ"
